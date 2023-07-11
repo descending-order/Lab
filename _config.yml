@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: MAC Lab
+subtitle: 'Multimodal Affective Computing Research Team | 多模态情感计算课题组'
+description: 'Multimodal Affective Computing Research Team | 多模态情感计算课题组'
 keywords:
-author: John Doe
-language: en
+author: 'MAC Lab'
+language: zh-CN
 timezone: ''
 
 # URL
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
