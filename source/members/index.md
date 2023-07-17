@@ -5,7 +5,7 @@ date: 2023-07-16 22:07:29
 layout: page
 ---
 
-#### **教授 / 研究员**
+#### **科研人员**
 
 ---
 
@@ -36,7 +36,7 @@ layout: page
       </td>
       <td>
         <a href="fengweijie">
-          <div style="margin-left: 4px; margin-right: 4px;"><img src="/members/images/huangjinyang.jpg" width="160px"></div>
+          <div style="margin-left: 4px; margin-right: 4px;"><img src="/members/images/fengweijie.jpg" width="160px"></div>
           <div style="margin-top: 8px;"><center><h5><strong>凤维杰</strong></h5></center></div>
           <center>{% label info @讲师 %}</center>
         </a>
@@ -46,15 +46,13 @@ layout: page
 </table>
 </center>
 
-#### **行政人员**
 
----
 
 #### **访问学者 / 博士后**
 
 ---
 
-#### **研究生**
+#### **研究生 / 助研本科生 **
 
 ---
 
