@@ -891,6 +891,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
+  enable: false
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
@@ -901,7 +902,7 @@ archive:
 # Category Page
 #---------------------------
 category:
-  enable: true
+  enable: false
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
@@ -930,7 +931,7 @@ category:
 # Tag Page
 #---------------------------
 tag:
-  enable: true
+  enable: false
   banner_img: /img/default.png
   banner_img_height: 80
   banner_mask_alpha: 0.3
@@ -947,7 +948,7 @@ tag:
 # About Page
 #---------------------------
 about:
-  enable: true
+  enable: false
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
@@ -994,7 +995,7 @@ page404:
 # Links Page
 #---------------------------
 links:
-  enable: true
+  enable: false
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
@@ -1039,6 +1040,41 @@ links:
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
     type: disqus
 
+#---------------------------
+# 研究方向页
+# Research Page
+#---------------------------
+research:
+  category: 研究方向
+  title: 研究方向
+  subtitle: "研 究 方 向"
+  banner_img: /img/default.png
+  banner_img_height: 60
+  banner_mask_alpha: 0.3
+
+#---------------------------
+# 科研成果页
+# Achievements Page
+#---------------------------
+achievements:
+  category: 科研成果
+  title: 科研成果
+  subtitle: "科 研 成 果"
+  banner_img: /img/default.png
+  banner_img_height: 60
+  banner_mask_alpha: 0.3
+
+#---------------------------
+# 新闻页
+# News Page
+#---------------------------
+news:
+  category: 最新资讯
+  title: 新闻中心
+  subtitle: "新 闻 中 心"
+  banner_img: /img/default.png
+  banner_img_height: 60
+  banner_mask_alpha: 0.3
 
 #---------------------------
 # 以下是配置 JS CSS 等静态资源的 URL 前缀，可以自定义成 CDN 地址，
