@@ -1,45 +1,48 @@
 <%
+var posts = site.posts.filter(function (post) {
+  if (post.categories.length != 0) { return post.categories.data[0].name == theme.research.category }
+  return false
+});
+
+var pageNum = page.canonical_path.substr(9, page.canonical_path.length).split('.')[0]
+var PostIndex = Number(pageNum) - 1 || 0;
+
 page.layout = "research"
 page.title = theme.research.title || __('research.title')
-page.subtitle = theme.research.subtitle || __('research.subtitle')
+page.subtitle = posts.data[PostIndex].title + ' - ' + (theme.research.subtitle || __('research.subtitle'))
 page.banner_img = theme.research.banner_img
 page.banner_img_height = theme.research.banner_img_height
 page.banner_mask_alpha = theme.research.banner_mask_alpha
 %>
 
-<% site.posts.filter(function (post) { %>
-<%   if (post.categories.length != 0) { return post.categories.data[0].name == theme.research.category } %>
-<%   return false %>
-<% }).each(function (post) { %>
-  <% if (post.categories.length != 0 && post.categories.data[0].name == theme.research.category) { %>
-    <div class="row mx-auto index-card">
-      <% var post_url = url_for(post.path), index_img = post.index_img || theme.post.default_index_img %>
-      <% if (index_img) { %>
-        <div class="col-12 col-md-4 m-auto index-img">
-          <a href="<%= post_url %>" target="<%- theme.index.post_url_target %>">
-            <img src="<%= url_for(index_img) %>" alt="<%= post.title %>">
-          </a>
-        </div>
-      <% } %>
-      <article class="col-12 col-md-<%= index_img ? '8' : '12' %> mx-auto index-info">
-        <h2 class="index-header">
-          <% if (theme.index.post_sticky && theme.index.post_sticky.enable && post.sticky > 0) { %>
-            <i class="index-pin <%= theme.index.post_sticky && theme.index.post_sticky.icon %>" title="Pin on top"></i>
-          <% } %>
-          <a href="<%= post_url %>" target="<%- theme.index.post_url_target %>">
-            <%= post.title %>
-          </a>
-        </h2>
-  
-        <% var excerpt = post.description || post.excerpt || (theme.index.auto_excerpt.enable && post.content) %>
-        <a class="index-excerpt <%= index_img ? '' : 'index-excerpt__noimg' %>" href="<%= post_url %>" target="<%- theme.index.post_url_target %>">
-          <div>
-            <%- strip_html(excerpt).substring(0, 200).trim().replace(/\n/g, ' ') %>
-          </div>
-        </a>
-      </article>
+<div class="row">
+  <div class="col-12 col-md-3">
+    <div class="list-group">
+    <hr>
+    <% posts.forEach((post, index) => { %>
+      <a href="/research/<%= index + 1 %>">
+        <h5 class="list-group-item list-group-item-action" style="border-top: 1px solid #ededed; border-bottom: 1px solid #ededed; margin-bottom: -1px;" @click="PostIndex = index"><%= post.title %></h5>
+      </a>
+    <% }) %>
     </div>
-  <% } %>
-<% }) %>
+  </div>
+  <div class="col-12 col-md-9">
+      <div class="row index-card">
+        <% var post_url = url_for(posts.data[PostIndex].path), index_img = posts.data[PostIndex].index_img || theme.post.default_index_img %>
+        <% if (index_img) { %>
+          <div class="col-12 col-md-4 m-auto index-img">
+            <a href="<%= post_url %>" target="<%- theme.index.post_url_target %>">
+              <img src="<%= url_for(index_img) %>" alt="<%= post.title %>">
+            </a>
+          </div>
+        <% } %>
+        <article class="col-12 col-md-<%= index_img ? '8' : '12' %> mx-auto index-info">
+          <div>
+            <%- posts.data[PostIndex].content %>
+          </div>
+        </article>
+      </div>
+  </div>
+</div>
 
 <%- partial('_partials/paginator') %>
