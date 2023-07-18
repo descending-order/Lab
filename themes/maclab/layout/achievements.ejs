@@ -9,11 +9,13 @@ page.banner_mask_alpha = theme.achievements.banner_mask_alpha
 
 <div class="list-group">
   <hr>
-  <% var dateCursor %>
-  <% site.posts.filter(function (post) { %>
-  <%   if (post.categories.length != 0) { return post.categories.data[0].name == theme.achievements.category } %>
-  <%   return false %>
-  <% }).sort('-date').each(function (post) { %>
+  <%
+  var dateCursor
+  site.posts.filter(function (post) {
+    if (post.categories.length != 0) { return post.categories.data[0].name == theme.achievements.category }
+    return false
+  }).sort('-date').each(function (post) {
+  %>
     <% if(date(post.date, "YYYY") !== dateCursor) { %>
       <% dateCursor = date(post.date, "YYYY") %>
       <p class="h5"><%= dateCursor %></p>
