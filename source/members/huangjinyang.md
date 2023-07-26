@@ -2,57 +2,32 @@
 title: 黄锦阳 讲师
 date: 2023-07-17 11:39:29
 ---
-## <i class="iconfont icon-addrcard"></i>&thinsp; **个人信息** 
---- 
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-    <style>
-        .first {
-            width: 30%;
-            float:left;
-            height: 308px;
-        }
-        .second {
-            width: 70%;
-            float:right;
-            height:308px;
-            border-left: 2px solid black;
-        }
-        .third {
-            width: 100%;
-            float:left;
-            height:25px;
-        }
-    </style>
-</head>
-<body>
-    <div class="first"> <img src="/assets/img/members/huangjinyang.jpg" width="230px"> </div>
-    <div class="second">
-        <ul>
-            <li>讲师</li><p></p>
-            <li>电子邮箱：hjy at hfut dot edu dot cn</li><p></p>
-            <li>合肥工业大学</li><p></p>
-            <li>所在单位：计算机与信息学院</li><p></p>
-            <li>办公室：翡翠科学大楼 A810</li><p></p>
-            <li>在职信息：在职</li><p></p>
-            <li>开场白：我正在寻找未来的硕士生和访问学者。如果您有兴趣与我合作，请随时将您的简历发送给我。</li><p></p>
-        </ul>
-    </div>
-    <div class=third>
-        <p></p>
-    </div>
-</body>
-</html>
+### <i class="iconfont icon-addrcard"></i>&thinsp; **个人信息** 
+---
+
+<div class="row">
+  <div class="col-12 col-md-3" style="margin-left: 32px;">
+    <img src="/assets/img/members/huangjinyang.jpg" height="220px">
+  </div>
+  <div class="col-12 col-md-6" style="border-left: 2px solid #dddddd; margin-left: -24px">
+    <ul style="margin-top: 12px; margin-left: -32px; list-style-type: none; line-height: 28px;">
+      <li><strong>讲师</strong></li>
+      <li><strong>电子邮箱:</strong> hjy at hfut dot edu dot cn</li>
+      <li><strong>合肥工业大学</strong></li>
+      <li><strong>所在单位:</strong> 计算机与信息学院</li>
+      <li><strong>办公室：</strong> 翡翠科学大楼 A810</li>
+      <li><strong>开场白：</strong> 我正在寻找未来的硕士生和访问学者。如果您有兴趣与我合作，请随时将您的简历发送给我。</li>
+    </ul>
+  </div>
+</div>
+
+<br style="margin-top: 24px;">
 
 ## <i class="iconfont icon-codeforces"></i>&thinsp; **个人简介**
 ---
 &emsp;&emsp;我是合肥工业大学（HFUT）计算机科学与信息工程学院的讲师[^1]。我在中国科学技术大学（USTC）网络空间安全学院获得博士学位，师从胡洪刚教授和副教授。刘斌.在博士期间，我获得了CSC奖学金，并由副教授指导。来自普渡大学的苏璐进行科学研究。在开始攻读博士学位之前，我于2017年获得了安徽大学（AHU）的学士学位。我对人机交互、无线传感、无线通信、计算机视觉、网络安全和物联网非常感兴趣。
-<div class=third>
-     <p></p>
-</div>
+
+<br>
 
 ## <i class="iconfont icon-plan"></i>&thinsp; **个人新闻**
 ---
@@ -71,9 +46,8 @@ date: 2023-07-17 11:39:29
 - **2021.10** 很荣幸获得研究生国家奖学金<p></p>
 - **2021.07** 一篇关于自适应异步联邦学习的论文被IEEE TMC（CCF A）通过<p></p>
 - **2021.03** 受邀担任IEEE VTC-Spring审稿人<p></p>
-<div class=third>
-    <p></p>
-</div>
+
+<br>
 
 ## <i class="iconfont icon-books"></i> &thinsp;**论文发表**
 ---
@@ -100,18 +74,16 @@ date: 2023-07-17 11:39:29
 <p></p>
 - <font color='red'>[iThings'18]</font> <b>黄锦阳</b>，刘斌，金红新， 刘志强， “WiAnti：基于WiFi CSI的抗干扰活动识别系统”，2018年IEEE物联网国际会议（iThings）和IEEE绿色计算与通信（GreenCom）以及IEEE网络，物理和社会计算（CPSCom）和IEEE智能数据（SmartData）（iThings），加拿大哈利法克斯， July 2018. (EI, <font color='red'>Best Student Paper Award</font>) [<font color='blue'>PDF</font>]
 <p></p>
-<div class=third>
-    <p></p>
-</div>
+
+<br>
 
 ## <i class="iconfont icon-book"></i> &thinsp;**教学**
 ---
 1. **2023** 年秋季，微波电路与设计
 
 2. **2023** 年秋季，电磁场和电磁波
-<div class=third>
-    <p></p>
-</div>
+
+<br>
 
 ## <i class="iconfont icon-exp-fill"></i> &thinsp;**专业活动**
 ---
@@ -131,9 +103,8 @@ date: 2023-07-17 11:39:29
 - 医学前沿
 
 - 电路、系统和计算机学报 （JCSC）
-<div class=third>
-    <p></p>
-</div>
+
+<br>
 
 ## <i class="iconfont icon-note"></i> &thinsp;**所获奖项**
 ---

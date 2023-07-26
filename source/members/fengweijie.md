@@ -2,51 +2,28 @@
 title: 凤维杰 讲师
 date: 2023-07-17 11:38:37
 ---
-## <i class="iconfont icon-addrcard"></i>&thinsp; **个人信息** 
---- 
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-    <style>
-        .first {
-            width: 30%;
-            float:left;
-            height: 268px;
-        }
-        .second {
-            width: 70%;
-            float:right;
-            height:268px;
-            border-left: 2px solid black;
-        }
-        .third {
-            width: 100%;
-            float:left;
-            height:25px;
-        }
-    </style>
-</head>
-<body>
-    <div class="first"> <img src="/assets/img/members/fengweijie.jpg" width="200px"> </div>
-    <div class="second">
-        <ul>
-            <li>出生日期：1995.08.10</li><p></p>
-            <li>中国科学技术大学</li><p></p>
-            <li>计算机科学与技术学院</li><p></p>
-            <li>国家高性能计算中心——高效能系统研究室</li><p></p>
-            <li>计算机软件与理论</li><p></p>
-            <li>联系方式：(+86) 17398385443</li><p></p>
-            <li>电子邮箱：fengwj@mail.ustc.edu.cn</li><p></p>
-        </ul>
-    </div>
-    <div class=third>
-        <p></p>
-    </div>
-</body>
-</html>
 
+### <i class="iconfont icon-addrcard"></i>&thinsp; **个人信息** 
+---
+
+<div class="row">
+  <div class="col-12 col-md-3" style="margin-left: 32px;">
+    <img src="/assets/img/members/fengweijie.jpg" height="220px">
+  </div>
+  <div class="col-12 col-md-6" style="border-left: 2px solid #dddddd; margin-left: -24px">
+    <ul style="margin-top: 12px; margin-left: -32px; list-style-type: none; line-height: 28px;">
+      <li><strong>出生日期：</strong>1995.08.10</li>
+      <li><strong>中国科学技术大学</strong></li>
+      <li><strong>计算机科学与技术学院</strong></li>
+      <li><strong>国家高性能计算中心——高效能系统研究室</strong></li>
+      <li><strong>计算机软件与理论</strong></li>
+      <li><strong>联系方式：</strong>(+86) 17398385443</li>
+      <li><strong>电子邮箱：</strong> fengwj@mail.ustc.edu.cn</li>
+    </ul>
+  </div>
+</div>
+
+<br style="margin-top: 24px;">
 
 ## <i class="iconfont icon-books"></i> &thinsp;**教育经历**
 ---
@@ -58,9 +35,8 @@ date: 2023-07-17 11:38:37
 
 3. **2013.09——2017.07**
 安徽师范大学 | 计算机科学与技术 | 学士
-<div class=third>
-    <p></p>
-</div>
+
+<br>
 
 ## <i class="iconfont icon-pen"></i>&thinsp; **研究方向**
 ---
@@ -75,9 +51,7 @@ date: 2023-07-17 11:38:37
 
 - 嵌入式系统通信的研究内容是基于“魂芯”的嵌入式系统 RapidIO 通信协议的实现，主要包括单板卡多芯片互通互联问题研究和多板卡互通互联问题研究。
 
-<div class=third>
-    <p></p>
-</div>
+<br>
 
 ## <i class="iconfont icon-books"></i> &thinsp;**论文发表**
 ---
@@ -88,9 +62,8 @@ date: 2023-07-17 11:38:37
 - Dongpeng Xu, Binbin Liu, **Weijie Feng**, Jiang Ming, Qilong Zheng, Jing Li, and Qiaoyan Yu. 2021. Boosting SMT solver performance on mixed-bitwise-arithmetic expressions. In Proceedings of the 42nd ACM SIGPLAN Interna-tional Conference on Programming Language Design and Implementation (PLDI 2021). Association for Computing Machinery, New York, NY, USA, 651–664. 
 
 - Binbin Liu, **Weijie Feng**, Qilong Zheng, Jing Li, and Dongpeng Xu. 2021. Software Obfuscation with Non-Linear Mixed Boolean-Arithmetic Expressions. In International Conference on Information and Communications Security (ICICS 2021), pages 276-292. Sep 17-19, ChongQing China.
-<div class=third>
-    <p></p>
-</div>
+
+<br>
 
 ## <i class="iconfont icon-stack-overflow-fill"></i>&thinsp; **科研与实习经历**
 ---
@@ -105,9 +78,8 @@ date: 2023-07-17 11:38:37
 
 - **2017.09-2019.06 | 面向先进雷达的高性能 DSP 编译器与操作系统，工信部“核高基”重大专项课题“面向先进雷达的高性能数字信号处理器研发与应用”一级分课题，2012ZX01034-001-001，2012-2019**
 &emsp;主要负责部分代码编写以及程序代码调优
-<div class=third>
-    <p></p>
-</div>
+
+<br>
 
 ## <i class="iconfont icon-speakernotes"></i>&thinsp; **社会兼职**
 ---
@@ -120,6 +92,3 @@ date: 2023-07-17 11:38:37
 4. **2019.03-2020.09** | 中国科学技术大学区块链协会初创成员、组织部部长
 
 5. **2018.09-2019.06** | 编译原理助教 (本科课程)
-<div class=third>
-    <p></p>
-</div>
