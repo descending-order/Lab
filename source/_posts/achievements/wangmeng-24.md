@@ -1,5 +1,5 @@
 ---
-title: 'Huan Zheng, Zhao Zhang, Haijun Zhang, Yi Yang, Shuicheng Yan, and Meng Wang. 2022. Deep Multi-Resolution Mutual Learning for Image Inpainting. In Proceedings of the 30th ACM International Conference on Multimedia (MM '22). Association for Computing Machinery, New York, NY, USA, 6359–6367.'
+title: "Huan Zheng, Zhao Zhang, Haijun Zhang, Yi Yang, Shuicheng Yan, and Meng Wang. 2022. Deep Multi-Resolution Mutual Learning for Image Inpainting. In Proceedings of the 30th ACM International Conference on Multimedia (MM '22). Association for Computing Machinery, New York, NY, USA, 6359–6367."
 description: https://dl.acm.org/doi/abs/10.1145/3503161.3548030
 date: 2022-10-10 11:09:39
 categories:
