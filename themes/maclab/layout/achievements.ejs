@@ -28,7 +28,7 @@ page.banner_mask_alpha = theme.achievements.banner_mask_alpha
         </p>
         <% var excerpt = post.description || post.excerpt || (theme.index.auto_excerpt.enable && post.content) %>
         <div>
-          Link: <a href="<%= url_for(post.description) %>" style="color: #30a9de;"><%- strip_html(excerpt).substring(0, 200).trim().replace(/\n/g, ' ') %></a>
+          Link: <a href="<%= url_for(post.description) %>" style="color: #30a9de; word-break: break-all;"><%- strip_html(excerpt).substring(0, 200).trim().replace(/\n/g, ' ') %></a>
         </div>
       </div>
     </div>
