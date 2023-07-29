@@ -3,7 +3,7 @@ name: homepage
 on:
   push:
     branches:
-      - main # default branch
+      - master # default branch
   # 手动触发部署
   workflow_dispatch:
 
